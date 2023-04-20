@@ -54,3 +54,13 @@ class DataVisualization:
         fig.update_layout(scene=dict(xaxis_title='X', yaxis_title='Y', zaxis_title='Z'),
                           title='Flight Paths of Drones')
         fig.show()
+        
+    drone_data = [
+{'drone_id': 'drone1', 'flight_duration': 20, 'collision': False, 'altitude': 150},
+{'drone_id': 'drone1', 'flight_duration': 30, 'collision': True, 'altitude': 120},
+{'drone_id': 'drone2', 'flight_duration': 25, 'collision': False, 'altitude': 200},
+{'drone_id': 'drone2', 'flight_duration': 15, 'collision': False, 'altitude': 180},
+{'drone_id': 'drone3', 'flight_duration': 40, 'collision': True, 'altitude': 100},
+{'drone_id': 'drone3', 'flight_duration': 35, 'collision': False, 'altitude': 90},
+]
+
